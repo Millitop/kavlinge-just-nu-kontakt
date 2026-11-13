@@ -1,0 +1,10 @@
+name: Fel eller förslag
+description: Något som är fel på sajten, eller ett förslag
+body:
+  - type: textarea
+    id: text
+    attributes:
+      label: Vad gäller det?
+      description: Skriv inga personuppgifter – det här syns för alla.
+    validations:
+      required: true

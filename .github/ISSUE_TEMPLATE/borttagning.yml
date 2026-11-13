@@ -1,0 +1,18 @@
+name: Begär borttagning
+description: Be oss ta bort en post från Kävlinge just nu
+title: "Borttagning: "
+labels: ["borttagning"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Det du skriver här syns för alla.** Skriv inga personuppgifter, inte heller varför posten ska bort.
+        Vi tar bort posten inom en vecka och spärrar den så att den inte hämtas igen.
+  - type: input
+    id: lank
+    attributes:
+      label: Länk till originalet
+      description: Länken som posten pekar på, t.ex. https://polisen.se/aktuellt/handelser/…
+      placeholder: https://polisen.se/aktuellt/handelser/…
+    validations:
+      required: true
